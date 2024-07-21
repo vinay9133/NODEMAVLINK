@@ -1,0 +1,45 @@
+/* src/App.css */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.status.connected {
+  background-color: green;
+}
+
+.status.disconnected {
+  background-color: red;
+}
+
+.control-panel {
+  margin: 20px 0;
+}
+
+.control-panel button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.mavlink-data {
+  margin-top: 20px;
+}
+
+.mavlink-data p {
+  margin: 5px 0;
+}
